@@ -22,3 +22,57 @@
     font-family: sans-serif;
     font-size: 72px;
 }
+.offer{
+    text-align: center;
+    padding-top: 10px;
+}
+.offer h1{
+    font-size: 88px;
+    font-family: sans-serif;
+    color: red;
+}
+.offer-description p{
+    font-size: 24px;
+    color: #FF0000;
+
+}
+.offer-description h3{
+    font-size: 48px;
+    color: #070211;
+}
+.party{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 130px;
+   background:
+   linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+   url(../image/Vectorrr.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 16px;
+}
+.party-text h3{
+    font-size: 64px ;
+    color: #fff;
+}
+.party-text p{
+    font-size: 18px ;
+    color: #fff;
+    padding: 50px auto;
+}
+.party-text a{
+    padding: 50px auto;
+    font-size: 20px ;
+    color: #fff;
+    text-decoration: none;
+}
+.party-text a:hover{
+    padding: 50px auto;
+    font-size: 30px ;
+    color: #fff;
+    text-decoration: underline;
+}
